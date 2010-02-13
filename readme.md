@@ -81,7 +81,7 @@ The following extensions were tested and work with Globalize2 Extension:
 
 ### [Copy-Move][cm]
 
-You need to load Copy-Move before Globalize2
+You need to load Copy-Move after Globalize2
 
     config.extensions = [ :globalize2, :copy_move, :all ]
 

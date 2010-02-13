@@ -83,7 +83,7 @@ The following extensions were tested and work with Globalize2 Extension:
 
 You need to load Copy-Move before Globalize2
 
-    config.extensions = [ :copy_move, :globalize2, :all ]
+    config.extensions = [ :globalize2, :copy_move, :all ]
 
 ### [Custom Fields][cf]
 

@@ -8,6 +8,8 @@ module Globalize2
     end
 
     module InstanceMethods
+      protected
+      
       def set_locale
         @locale = params[:locale] || session[:locale] || Globalize2Extension.default_language
 

@@ -5,6 +5,8 @@ module Globalize2
         alias_method_chain :find_page, :globalize
       end
     end
+
+    protected
     
     def find_page_with_globalize(url)
       globalized_url = '/' + I18n.locale + '/' + url
